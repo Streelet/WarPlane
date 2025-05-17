@@ -1,0 +1,42 @@
+# Configuración básica para archivos de texto (LF como fin de línea)
+* text=auto
+
+# Archivos binarios en Unity (no deben ser modificados)
+*.asset binary
+*.meta binary
+*.unity binary
+*.prefab binary
+*.mat binary
+*.anim binary
+*.controller binary
+*.physicMaterial binary
+*.physicsMaterial2D binary
+*.cubemap binary
+*.flare binary
+*.renderTexture binary
+*.guiskin binary
+*.fontsettings binary
+*.mixer binary
+
+# Archivos de input system (pueden ser binarios o texto, depende del uso)
+*.inputactions binary
+
+# Archivos de escena/template
+*.scenetemplate binary
+
+# Archivos de scripting (deben usar LF)
+*.cs text eol=lf
+*.shader text eol=lf
+*.json text eol=lf
+*.yml text eol=lf
+*.md text eol=lf
+*.txt text eol=lf
+
+# Archivos de proyecto/IDE (pueden variar según el sistema)
+*.sln text eol=crlf
+*.csproj text eol=crlf
+*.vsconfig text eol=crlf
+
+# Excepciones específicas (si es necesario)
+.gitattributes text eol=lf
+.gitignore text eol=lf
